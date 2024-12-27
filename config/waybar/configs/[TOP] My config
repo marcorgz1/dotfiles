@@ -1,45 +1,56 @@
-/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
-
-// ### Minimal - Long ### //
+// ### My waybar Config ### //
 
 {
-"include": [
-  "$HOME/.config/waybar/Modules",
-  "$HOME/.config/waybar/ModulesWorkspaces",
-  "$HOME/.config/waybar/ModulesCustom",
-  "$HOME/.config/waybar/ModulesGroups",
+  "include": [
+    "$HOME/.config/waybar/Modules",
+    "$HOME/.config/waybar/ModulesWorkspaces",
+    "$HOME/.config/waybar/ModulesCustom",
+    "$HOME/.config/waybar/ModulesGroups"
   ],
-"layer": "top",
-//"mode": "dock",
-"exclusive": true,
-"passthrough": false,
-"position": "top",
-"spacing": 6,
-"fixed-center": true,
-"ipc": true,
-"margin-top": 3,
-"margin-left": 8,
-"margin-right": 8,
+
+  "layer": "top",
+  //"mode": "dock",
+  "exclusive": true,
+  "passthrough": false,
+  "position": "top",
+  "spacing": 3,
+  "fixed-center": true,
+  "ipc": true,
+  "margin-top": 3,
+  "margin-left": 8,
+  "margin-right": 8,
 
 "modules-left": [
 	"custom/menu",
-	"custom/separator#blank_2",
-  "mpris",
-	"custom/separator#blank_2",
-  "custom/swaync",
+	"custom/separator#blank_3",
+  "clock",
+  "custom/separator#blank_3",
+	"custom/cava_mviz",
+  "custom/separator#blank_3",
   "wlr/taskbar"
 	],
+
 "modules-center": [
   "hyprland/workspaces#rw"
-],
+  ], 
+
 "modules-right": [
-  "mpris",
-	"group/laptop",
-  "custom/separator#blank_2",
+  "cpu",
+  "custom/separator#blank_3",
+  "disk",
+  "custom/separator#blank_3",
+  "memory",
+  "custom/separator#dot-line",
+	"custom/swaync",
+  "custom/separator#dot-line",
 	"tray",
-  "custom/separator#blank_2",
-	"group/audio",
-	"custom/separator#blank_2",
-	"clock"
+	"custom/separator#dot-line",
+  "mpris",
+  "custom/separator#dot-line",
+	"bluetooth",
+  "custom/separator#dot-line",
+  "pulseaudio#1",
+	"custom/separator#dot-line",
+  "clock"
 	],
 }
