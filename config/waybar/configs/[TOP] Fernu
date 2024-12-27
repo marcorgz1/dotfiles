@@ -1,0 +1,19 @@
+{
+ "include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  ],
+
+	"layer": "top",
+    "width": 1728,
+    "margin-top": 10,
+    "margn-bottom": 0,
+
+  //Modules layout
+
+	"modules-left": ["custom/launcher","cpu","memory","disk"],
+	"modules-center": ["hyprland/workspaces"],
+	"modules-right": ["network","pulseaudio", "battery","clock"]
+}
