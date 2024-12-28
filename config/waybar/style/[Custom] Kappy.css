@@ -13,7 +13,7 @@ window#waybar {
   transition-duration: .5s;
   font-family: 'CaskaydiaCove Nerd Font';
   color: #ffffff;
-  min-height: 36px;
+  min-height: 28px;
   border-radius: 0 0 12px 12px;
 }
 
@@ -21,7 +21,7 @@ window#waybar {
   font-family: 'Font Awesome 6 Free Solid';
   padding: 0 4px;
   color: #98c278;
-  font-size: 16px;
+  font-size: 22px;
   border-radius: 8px;
 }
 
@@ -37,6 +37,15 @@ window#waybar {
 #workspaces button.active {
   color : #61afef;
   font-size: 16px;
+}
+
+#pulseaudio {
+  padding-right: 5px;
+  background: #009c18;
+  border-radius: 999px 0 0 999px;
+  min-height: 0px;
+  min-width: 0px;
+  padding-left: 8px;
 }
 
 #pulseaudio-slider {
@@ -65,7 +74,6 @@ window#waybar {
 #custom-audio-slider-icon {
   font-family: 'Font Awesome 6 Free Solid';
   padding: 0 8px;
-  border-radius: 999px 0 0 999px;
   font-size: 15px;
   background: #c7374a;
 }
@@ -119,49 +127,49 @@ window#waybar {
 
 #custom-rofi {
   font-family: 'Font Awesome 6 Free Solid';
-  font-size: 20px;
+  font-size: 22px;
   margin-left: 12px;
   color: #e5c07b;
 }
 
 #custom-terminal {
   font-family: 'Font Awesome 6 Free Solid';
-  font-size: 20px;
+  font-size: 22px;
   margin-left: 12px;
   color: #98c379;
 }
 
 #custom-browser {
   font-family: 'Font Awesome 6 Brands';
-  font-size: 20px;
+  font-size: 22px;
   margin-left: 12px;
   color: #e08f6c;
 }
 
 #custom-files {
   font-family: 'Font Awesome 6 Free';
-  font-size: 20px;
+  font-size: 22px;
   margin-left: 12px;
   color: #61afef;
 }
 
 #custom-spotify {
   font-family: 'Font Awesome 6 Brands';
-  font-size: 20px;
+  font-size: 22px;
   margin-left: 12px;
   color: #98c379;
 }
 
 #custom-discord {
   font-family: 'Font Awesome 6 Brands';
-  font-size: 20px;
+  font-size: 22px;
   margin-left: 12px;
   color: #6172ef;
 }
 
 #custom-code-editor {
   font-family: 'Font Awesome 6 Free Solid';
-  font-size: 20px;
+  font-size: 22px;
   margin-left: 12px;
   color: #98c379;
 }

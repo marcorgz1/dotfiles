@@ -1,5 +1,3 @@
-/* --- Kappy waybar config --- */
-
 // -*- mode: jsonc -*-
 {
     "name": "mybar",
@@ -10,13 +8,17 @@
         "custom/files",
         "custom/spotify",
         "custom/discord",
-        "custom/code-editor"
+        "custom/code-editor",
+        "custom/separator#blank_3",
+        "wlr/taskbar"
     ],
     "modules-center": [
         "hyprland/workspaces"
     ],
     "modules-right": [
         "tray",
+        "custom/separator#blank_3",
+        "pulseaudio",
         "custom/audio-slider-icon",
         "pulseaudio/slider",
         "custom/spotifyTray",
@@ -30,6 +32,21 @@
         "clock"
     ],
     // Modules configuration
+    
+    "wlr/taskbar": {
+	    "format": "{icon} {name}",
+	    "icon-size": 22,
+	    "all-outputs": false,
+	    "tooltip-format": "{title}",
+	    "on-click": "activate",
+	    "on-click-middle": "close",
+	    "ignore-list": [
+		    "wofi",
+		    "rofi",
+		    "kitty",
+        "kitty-dropterm"
+		  ],
+    },
 
     "custom/audio-slider-icon": {
       "format": "",
@@ -169,5 +186,52 @@
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
-    }
+    },
+
+    "pulseaudio": {
+	    "format": "{volume}%",
+	    "format-bluetooth": "{icon} 󰂰 {volume}%",
+	    "format-muted": "󰖁",
+	    "format-icons": {
+		    "headphone": "",
+		    "hands-free": "",
+		    "headset": "",
+		    "phone": "",
+		    "portable": "",
+		    "car": "",
+		  "default": [
+			  "", "", "󰕾",  ""
+		  ],
+		  "ignored-sinks": [
+			  "Easy Effects Sink"
+		  ],
+	  },
+	  "scroll-step": 5.0,
+	  "on-click": "$HOME/.config/hypr/scripts/Volume.sh --toggle",
+	  "on-click-right": "pavucontrol -t 3",
+	  "on-scroll-up": "$HOME/.config/hypr/scripts/Volume.sh --inc",
+	  "on-scroll-down": "$HOME/.config/hypr/scripts/Volume.sh --dec",
+	  "tooltip-format": "{icon} {desc} | {volume}%",
+	  "smooth-scrolling-threshold": 1,
+  },
+
+  /*  SEPARATORS */
+
+  "custom/separator#blank": {
+	  "format": "",
+	  "interval": "once",
+	  "tooltip": false
+  },
+
+  "custom/separator#blank_2": {
+	  "format": " ",
+	  "interval": "once",
+	  "tooltip": false
+  },
+
+  "custom/separator#blank_3": {
+	  "format": "   ",
+	  "interval": "once",
+	  "tooltip": false
+  },
 }
