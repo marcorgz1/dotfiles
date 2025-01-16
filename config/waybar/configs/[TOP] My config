@@ -22,35 +22,31 @@
 
 "modules-left": [
 	"custom/menu",
-	"custom/separator#blank_3",
-  "clock",
+	"custom/separator#blank",
+  "hyprland/workspaces#rw",
   "custom/separator#blank_3",
 	"custom/cava_mviz",
-  "custom/separator#blank_3",
-  "wlr/taskbar"
-	],
+  "custom/separator#blank_2",
+  "custom/user_host"
+],
 
 "modules-center": [
-  "hyprland/workspaces#rw"
-  ], 
-
-"modules-right": [
+  "clock#4",
+  "custom/separator#blank_3",
   "cpu",
   "custom/separator#blank_3",
   "disk",
   "custom/separator#blank_3",
   "memory",
-  "custom/separator#dot-line",
-	"custom/swaync",
+  ], 
+
+"modules-right": [
+  "custom/spotify", 
   "custom/separator#dot-line",
 	"tray",
-	"custom/separator#dot-line",
-  "mpris",
   "custom/separator#dot-line",
 	"bluetooth",
   "custom/separator#dot-line",
-  "pulseaudio#1",
-	"custom/separator#dot-line",
-  "clock"
+  "pulseaudio#1"
 	],
 }

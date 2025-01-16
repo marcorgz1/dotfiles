@@ -11,6 +11,8 @@
 	font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
 }
 
+@import "../waybar/style/catppuccin-themes/mocha.css";
+
 window#waybar {
   background: transparent;
 	color: #cba6f7;
@@ -66,30 +68,31 @@ tooltip {
 	/*background-color: #441a53;*/
 	padding-top: 2px;
 	padding-bottom: 2px;
-	padding-right: 8px;
-	padding-left: 8px;
+  padding-right: 8px;
+	padding-left: 12px;
 }
 
 #workspaces button {
-	color: #cfffff;
-    box-shadow: none;
+   color: @white;
+	border-radius: 50%;
+  background: transparent;	
+  box-shadow: none;
 	text-shadow: none;
-    padding: 0px;
-    border-radius: 9px;
-    padding-left: 4px;
-    padding-right: 4px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
+  padding: 0px;
+  border-radius: 9px;
+  padding-left: 4px;
+  padding-right: 4px;
+  animation: gradient_f 20s ease-in infinite;
+  transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #workspaces button.active {
-	color: #cba6f7;
-	border-radius: 50%;
-	background-color: black;
-    padding-left: 8px;
-    padding-right: 8px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+  color: @black;
+  background: @lavender; 
+  padding-left: 8px;
+  padding-right: 8px;
+  animation: gradient_f 20s ease-in infinite;
+  transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #workspaces button.focused {
@@ -132,10 +135,8 @@ tooltip {
 #window,
 #wireplumber,
 #workspaces,
-#custom-backlight,
-#custom-browser,
 #custom-cava_mviz,
-#custom-cycle_wall,
+#custom-user_host,
 #custom-file_manager,
 #custom-keybinds,
 #custom-keyboard,
@@ -164,8 +165,8 @@ tooltip {
 #custom-weather.sunnyDay {
 	padding-top: 4px;
 	padding-bottom: 4px;
-	padding-right: 6px;
-	padding-left: 6px;
+	padding-right: 12px;
+	padding-left: 12px;
 }
 
 #temperature.critical {
@@ -184,8 +185,12 @@ tooltip {
   margin-right: 24px;
 }
 
+#custom-user_host {
+  color: @lavender;
+}
+
 #custom-menu {
-  color: #bfffff;
+  color: @blue;
   font-size: 18px;
 }
 
@@ -193,28 +198,47 @@ tooltip {
   color: #ffd4ff;
 }
 
+#custom-spotify {
+  color: @yellow;
+  margin-right: 8px;
+}
+
 #cpu {
-  color: #ffd800;
+  color: @sky;
+  border-radius: 8px;
 }
 
 #disk {
-  color: #adeaff;
+  color: @sapphire;
+  border-radius: 8px;
 }
 
 #memory {
-  color: #e1a0ff;
+  color: @yellow;
+  border-radius: 8px;
+  padding-right: 26px;
 }
 
 #custom-swaync {
   color: #cfcfcf;
 }
 
+#tray {
+  background: #005375;
+  border-radius: 8px;
+}
+
 #bluetooth {
-  color: #9ce5ff;
+  color: @black;
+  background: @sky;
+  border-radius: 8px;
+  padding-left: 12px;
 }
 
 #pulseaudio {
-  color: #ffcccc;
+  color: @black;
+  background: @peach;
+  border-radius: 8px;
 }
 
 #custom-power {

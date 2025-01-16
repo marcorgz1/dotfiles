@@ -5,6 +5,30 @@
 /* Custom Modules like weather browser, tty, file manager at the beginning */
 
 {
+
+/* Icons */
+
+"custom/files": {
+  "format": "",
+  "tooltip": false,
+  "on-click": "kitty -e thunar"
+},
+
+"custom/spotify": {
+  "exec": "python3 ~/.config/hypr/scripts/MediaPlayer.py --player spotify",
+  "format": "    {}",
+  "return-type": "json",
+  "on-click": "playerctl play-pause",
+  "on-scroll-up": "playerctl next",
+  "on-scroll-down": "playerctl previous"
+},
+
+"custom/discord": {
+  "format": "",
+  "tooltip": false,
+  "on-click": "discord.desktop"
+},
+
 "custom/weather": {
 	"format": "{}",
 	"format-alt": "{alt}: {}",
@@ -98,7 +122,7 @@
 },
 
 "custom/menu": {
-	"format": " ",
+	"format": " ",
 	"on-click": "pkill rofi || rofi -show drun -modi run,drun,filebrowser,window",
 	"on-click-middle": "$HOME/.config/hypr/UserScripts/WallpaperSelect.sh",
 	"on-click-right": "$HOME/.config/hypr/scripts/WaybarLayout.sh",
@@ -109,6 +133,21 @@
 "custom/cava_mviz": {
 	"exec": "$HOME/.config/hypr/scripts/WaybarCava.sh",
 	"format": "{}"
+},
+
+"custom/music": {
+  "format": "  {}",
+  "escape": true,
+  "interval": 5,
+  "tooltip": false,
+  "exec": "playerctl metadata --format='{{ title }}'",
+  "on-click": "playerctl play-pause",
+  "max-length": 50
+},
+
+"custom/user_host": {
+  "format": "<span>{}</span>",
+  "exec": "echo $(whoami)@$(hostname)"
 },
 
 "custom/playerctl": {
