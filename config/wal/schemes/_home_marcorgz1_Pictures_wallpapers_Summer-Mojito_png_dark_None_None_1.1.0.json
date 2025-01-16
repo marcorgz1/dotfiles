@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/Summer-Mojito.png",
+    "alpha": "100",
+    "special": {
+        "background": "#180d04",
+        "foreground": "#bedde4",
+        "cursor": "#bedde4"
+    },
+    "colors": {
+        "color0": "#180d04",
+        "color1": "#C6C25C",
+        "color2": "#2B6FA8",
+        "color3": "#5A9EAC",
+        "color4": "#5DABE8",
+        "color5": "#78C3EC",
+        "color6": "#B8C0A1",
+        "color7": "#bedde4",
+        "color8": "#859a9f",
+        "color9": "#C6C25C",
+        "color10": "#2B6FA8",
+        "color11": "#5A9EAC",
+        "color12": "#5DABE8",
+        "color13": "#78C3EC",
+        "color14": "#B8C0A1",
+        "color15": "#bedde4"
+    }
+}

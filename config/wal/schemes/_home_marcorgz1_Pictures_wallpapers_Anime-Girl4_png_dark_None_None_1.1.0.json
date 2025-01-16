@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/Anime-Girl4.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0B1310",
+        "foreground": "#efdec9",
+        "cursor": "#efdec9"
+    },
+    "colors": {
+        "color0": "#0B1310",
+        "color1": "#97715E",
+        "color2": "#7E8578",
+        "color3": "#AA886D",
+        "color4": "#D59E62",
+        "color5": "#B59E8B",
+        "color6": "#D1B191",
+        "color7": "#efdec9",
+        "color8": "#a79b8c",
+        "color9": "#97715E",
+        "color10": "#7E8578",
+        "color11": "#AA886D",
+        "color12": "#D59E62",
+        "color13": "#B59E8B",
+        "color14": "#D1B191",
+        "color15": "#efdec9"
+    }
+}

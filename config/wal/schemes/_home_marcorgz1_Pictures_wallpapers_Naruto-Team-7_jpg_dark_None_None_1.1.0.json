@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/Naruto-Team-7.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050306",
+        "foreground": "#e1eff2",
+        "cursor": "#e1eff2"
+    },
+    "colors": {
+        "color0": "#050306",
+        "color1": "#2054A6",
+        "color2": "#A5A49E",
+        "color3": "#E4AF9A",
+        "color4": "#B6C8BA",
+        "color5": "#F1E2AA",
+        "color6": "#ECE2D0",
+        "color7": "#e1eff2",
+        "color8": "#9da7a9",
+        "color9": "#2054A6",
+        "color10": "#A5A49E",
+        "color11": "#E4AF9A",
+        "color12": "#B6C8BA",
+        "color13": "#F1E2AA",
+        "color14": "#ECE2D0",
+        "color15": "#e1eff2"
+    }
+}

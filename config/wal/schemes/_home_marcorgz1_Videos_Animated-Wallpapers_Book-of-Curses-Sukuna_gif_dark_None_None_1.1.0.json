@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Videos/Animated-Wallpapers/Book-of-Curses-Sukuna.gif",
+    "alpha": "100",
+    "special": {
+        "background": "#060708",
+        "foreground": "#e0e0df",
+        "cursor": "#e0e0df"
+    },
+    "colors": {
+        "color0": "#060708",
+        "color1": "#6E6F6E",
+        "color2": "#7F807F",
+        "color3": "#8F918F",
+        "color4": "#A0A19E",
+        "color5": "#AFB0AE",
+        "color6": "#C0C1BE",
+        "color7": "#e0e0df",
+        "color8": "#9c9c9c",
+        "color9": "#6E6F6E",
+        "color10": "#7F807F",
+        "color11": "#8F918F",
+        "color12": "#A0A19E",
+        "color13": "#AFB0AE",
+        "color14": "#C0C1BE",
+        "color15": "#e0e0df"
+    }
+}

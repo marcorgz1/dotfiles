@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/wallhaven-96x871.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E1119",
+        "foreground": "#c5c5c7",
+        "cursor": "#c5c5c7"
+    },
+    "colors": {
+        "color0": "#0E1119",
+        "color1": "#3D434A",
+        "color2": "#4C4A51",
+        "color3": "#656268",
+        "color4": "#906C6D",
+        "color5": "#71718C",
+        "color6": "#838D83",
+        "color7": "#c5c5c7",
+        "color8": "#89898b",
+        "color9": "#3D434A",
+        "color10": "#4C4A51",
+        "color11": "#656268",
+        "color12": "#906C6D",
+        "color13": "#71718C",
+        "color14": "#838D83",
+        "color15": "#c5c5c7"
+    }
+}

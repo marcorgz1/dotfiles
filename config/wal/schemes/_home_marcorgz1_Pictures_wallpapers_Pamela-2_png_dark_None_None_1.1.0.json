@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/Pamela-2.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0D191C",
+        "foreground": "#bab5bb",
+        "cursor": "#bab5bb"
+    },
+    "colors": {
+        "color0": "#0D191C",
+        "color1": "#175159",
+        "color2": "#3A4453",
+        "color3": "#4D4B55",
+        "color4": "#4E5066",
+        "color5": "#63606C",
+        "color6": "#3F6D89",
+        "color7": "#bab5bb",
+        "color8": "#827e82",
+        "color9": "#175159",
+        "color10": "#3A4453",
+        "color11": "#4D4B55",
+        "color12": "#4E5066",
+        "color13": "#63606C",
+        "color14": "#3F6D89",
+        "color15": "#bab5bb"
+    }
+}

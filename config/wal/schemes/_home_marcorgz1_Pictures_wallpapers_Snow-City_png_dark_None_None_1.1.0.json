@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/Snow-City.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0B1013",
+        "foreground": "#bed1dc",
+        "cursor": "#bed1dc"
+    },
+    "colors": {
+        "color0": "#0B1013",
+        "color1": "#496173",
+        "color2": "#A97A5F",
+        "color3": "#3F6982",
+        "color4": "#55758A",
+        "color5": "#6C91A7",
+        "color6": "#7CA9C3",
+        "color7": "#bed1dc",
+        "color8": "#85929a",
+        "color9": "#496173",
+        "color10": "#A97A5F",
+        "color11": "#3F6982",
+        "color12": "#55758A",
+        "color13": "#6C91A7",
+        "color14": "#7CA9C3",
+        "color15": "#bed1dc"
+    }
+}

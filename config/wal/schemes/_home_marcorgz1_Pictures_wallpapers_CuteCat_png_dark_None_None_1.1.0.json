@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/CuteCat.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a070a",
+        "foreground": "#dcd0c3",
+        "cursor": "#dcd0c3"
+    },
+    "colors": {
+        "color0": "#0a070a",
+        "color1": "#5F4F53",
+        "color2": "#975A34",
+        "color3": "#C36C3C",
+        "color4": "#9C6A4F",
+        "color5": "#D29C5F",
+        "color6": "#3B70B0",
+        "color7": "#dcd0c3",
+        "color8": "#9a9188",
+        "color9": "#5F4F53",
+        "color10": "#975A34",
+        "color11": "#C36C3C",
+        "color12": "#9C6A4F",
+        "color13": "#D29C5F",
+        "color14": "#3B70B0",
+        "color15": "#dcd0c3"
+    }
+}

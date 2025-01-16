@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/2.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0a0f",
+        "foreground": "#e6b7b7",
+        "cursor": "#e6b7b7"
+    },
+    "colors": {
+        "color0": "#0b0a0f",
+        "color1": "#4F3C5C",
+        "color2": "#5C4C69",
+        "color3": "#9E6172",
+        "color4": "#786386",
+        "color5": "#9D708E",
+        "color6": "#CC7A8B",
+        "color7": "#e6b7b7",
+        "color8": "#a18080",
+        "color9": "#4F3C5C",
+        "color10": "#5C4C69",
+        "color11": "#9E6172",
+        "color12": "#786386",
+        "color13": "#9D708E",
+        "color14": "#CC7A8B",
+        "color15": "#e6b7b7"
+    }
+}

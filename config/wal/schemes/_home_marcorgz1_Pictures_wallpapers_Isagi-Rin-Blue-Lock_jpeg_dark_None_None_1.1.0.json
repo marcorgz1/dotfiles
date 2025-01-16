@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/Isagi-Rin-Blue-Lock.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#040D10",
+        "foreground": "#ced6cc",
+        "cursor": "#ced6cc"
+    },
+    "colors": {
+        "color0": "#040D10",
+        "color1": "#B25E4E",
+        "color2": "#2A936B",
+        "color3": "#47B541",
+        "color4": "#58A261",
+        "color5": "#889770",
+        "color6": "#37B28E",
+        "color7": "#ced6cc",
+        "color8": "#90958e",
+        "color9": "#B25E4E",
+        "color10": "#2A936B",
+        "color11": "#47B541",
+        "color12": "#58A261",
+        "color13": "#889770",
+        "color14": "#37B28E",
+        "color15": "#ced6cc"
+    }
+}

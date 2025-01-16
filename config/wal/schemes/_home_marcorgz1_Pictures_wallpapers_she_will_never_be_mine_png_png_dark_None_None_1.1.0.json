@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/she_will_never_be_mine.png.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0a10",
+        "foreground": "#a5cbc6",
+        "cursor": "#a5cbc6"
+    },
+    "colors": {
+        "color0": "#0a0a10",
+        "color1": "#90617E",
+        "color2": "#769854",
+        "color3": "#85AD5C",
+        "color4": "#8EB961",
+        "color5": "#97C466",
+        "color6": "#9A74B4",
+        "color7": "#a5cbc6",
+        "color8": "#738e8a",
+        "color9": "#90617E",
+        "color10": "#769854",
+        "color11": "#85AD5C",
+        "color12": "#8EB961",
+        "color13": "#97C466",
+        "color14": "#9A74B4",
+        "color15": "#a5cbc6"
+    }
+}

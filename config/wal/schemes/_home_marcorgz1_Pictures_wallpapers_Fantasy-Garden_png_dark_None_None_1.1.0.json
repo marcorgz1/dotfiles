@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/Fantasy-Garden.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0d191c",
+        "foreground": "#d8d0cb",
+        "cursor": "#d8d0cb"
+    },
+    "colors": {
+        "color0": "#0d191c",
+        "color1": "#D6A736",
+        "color2": "#A79F61",
+        "color3": "#CAB764",
+        "color4": "#DDCB6A",
+        "color5": "#5B6E98",
+        "color6": "#7B8297",
+        "color7": "#d8d0cb",
+        "color8": "#97918e",
+        "color9": "#D6A736",
+        "color10": "#A79F61",
+        "color11": "#CAB764",
+        "color12": "#DDCB6A",
+        "color13": "#5B6E98",
+        "color14": "#7B8297",
+        "color15": "#d8d0cb"
+    }
+}

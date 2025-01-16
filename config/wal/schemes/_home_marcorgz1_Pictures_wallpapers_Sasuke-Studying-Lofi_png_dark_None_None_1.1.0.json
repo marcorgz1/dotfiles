@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/Sasuke-Studying-Lofi.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0807",
+        "foreground": "#f5e2e3",
+        "cursor": "#f5e2e3"
+    },
+    "colors": {
+        "color0": "#0D0807",
+        "color1": "#A99274",
+        "color2": "#718691",
+        "color3": "#9FA698",
+        "color4": "#D8A495",
+        "color5": "#B6C7B8",
+        "color6": "#DFD6AB",
+        "color7": "#f5e2e3",
+        "color8": "#ab9e9e",
+        "color9": "#A99274",
+        "color10": "#718691",
+        "color11": "#9FA698",
+        "color12": "#D8A495",
+        "color13": "#B6C7B8",
+        "color14": "#DFD6AB",
+        "color15": "#f5e2e3"
+    }
+}

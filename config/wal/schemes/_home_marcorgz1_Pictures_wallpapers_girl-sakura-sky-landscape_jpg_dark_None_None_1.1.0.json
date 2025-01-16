@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/girl-sakura-sky-landscape.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#100b18",
+        "foreground": "#d3d7e6",
+        "cursor": "#d3d7e6"
+    },
+    "colors": {
+        "color0": "#100b18",
+        "color1": "#5C67C1",
+        "color2": "#975DAE",
+        "color3": "#388AEE",
+        "color4": "#5F94F3",
+        "color5": "#9BA1ED",
+        "color6": "#E5A7DF",
+        "color7": "#d3d7e6",
+        "color8": "#9396a1",
+        "color9": "#5C67C1",
+        "color10": "#975DAE",
+        "color11": "#388AEE",
+        "color12": "#5F94F3",
+        "color13": "#9BA1ED",
+        "color14": "#E5A7DF",
+        "color15": "#d3d7e6"
+    }
+}

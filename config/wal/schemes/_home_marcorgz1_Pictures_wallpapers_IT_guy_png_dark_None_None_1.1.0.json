@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/IT_guy.png",
+    "alpha": "100",
+    "special": {
+        "background": "#070E11",
+        "foreground": "#7bf1e2",
+        "cursor": "#7bf1e2"
+    },
+    "colors": {
+        "color0": "#070E11",
+        "color1": "#A95E2E",
+        "color2": "#5FD858",
+        "color3": "#97FD69",
+        "color4": "#13A892",
+        "color5": "#09E79D",
+        "color6": "#02FEAB",
+        "color7": "#7bf1e2",
+        "color8": "#56a89e",
+        "color9": "#A95E2E",
+        "color10": "#5FD858",
+        "color11": "#97FD69",
+        "color12": "#13A892",
+        "color13": "#09E79D",
+        "color14": "#02FEAB",
+        "color15": "#7bf1e2"
+    }
+}

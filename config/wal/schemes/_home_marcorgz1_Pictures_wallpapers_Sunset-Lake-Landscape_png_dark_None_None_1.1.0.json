@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/Sunset-Lake-Landscape.png",
+    "alpha": "100",
+    "special": {
+        "background": "#09CC12",
+        "foreground": "#f5d2e3",
+        "cursor": "#f5d2e3"
+    },
+    "colors": {
+        "color0": "#09CC12",
+        "color1": "#3C8669",
+        "color2": "#624560",
+        "color3": "#A3216B",
+        "color4": "#E30770",
+        "color5": "#612B8C",
+        "color6": "#F2B3A1",
+        "color7": "#f5d2e3",
+        "color8": "#ab939e",
+        "color9": "#3C8669",
+        "color10": "#624560",
+        "color11": "#A3216B",
+        "color12": "#E30770",
+        "color13": "#612B8C",
+        "color14": "#F2B3A1",
+        "color15": "#f5d2e3"
+    }
+}

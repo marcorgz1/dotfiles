@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/Snowy-Park.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0C192E",
+        "foreground": "#e7c4c2",
+        "cursor": "#e7c4c2"
+    },
+    "colors": {
+        "color0": "#0C192E",
+        "color1": "#5F708D",
+        "color2": "#A77284",
+        "color3": "#DB7883",
+        "color4": "#7490AC",
+        "color5": "#7DA3C0",
+        "color6": "#ADABAF",
+        "color7": "#e7c4c2",
+        "color8": "#a18987",
+        "color9": "#5F708D",
+        "color10": "#A77284",
+        "color11": "#DB7883",
+        "color12": "#7490AC",
+        "color13": "#7DA3C0",
+        "color14": "#ADABAF",
+        "color15": "#e7c4c2"
+    }
+}

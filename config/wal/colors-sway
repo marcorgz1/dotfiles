@@ -1,0 +1,21 @@
+set $wallpaper /home/marcorgz1/Pictures/wallpapers/Arcade_decay_red.png
+
+set $background #0a0c0f
+set $foreground #b3dcca
+
+set $color0 #0a0c0f
+set $color1 #545861
+set $color2 #843E45
+set $color3 #9E555B
+set $color4 #DB5F65
+set $color5 #838A7A
+set $color6 #709E8E
+set $color7 #b3dcca
+set $color8 #7d9a8d
+set $color9 #545861
+set $color10 #843E45
+set $color11 #9E555B
+set $color12 #DB5F65
+set $color13 #838A7A
+set $color14 #709E8E
+set $color15 #b3dcca

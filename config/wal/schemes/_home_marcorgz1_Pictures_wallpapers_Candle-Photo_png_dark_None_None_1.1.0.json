@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/Candle-Photo.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0e0c0d",
+        "foreground": "#ddd2c5",
+        "cursor": "#ddd2c5"
+    },
+    "colors": {
+        "color0": "#0e0c0d",
+        "color1": "#605654",
+        "color2": "#AA5530",
+        "color3": "#996C5B",
+        "color4": "#C99752",
+        "color5": "#E5A65D",
+        "color6": "#607B8B",
+        "color7": "#ddd2c5",
+        "color8": "#9a9389",
+        "color9": "#605654",
+        "color10": "#AA5530",
+        "color11": "#996C5B",
+        "color12": "#C99752",
+        "color13": "#E5A65D",
+        "color14": "#607B8B",
+        "color15": "#ddd2c5"
+    }
+}

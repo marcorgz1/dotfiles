@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/marcorgz1/Pictures/wallpapers/Arcade_decay_red.png"
+let background = "#0a0c0f"
+let foreground = "#b3dcca"
+let cursor     = "#b3dcca"
+
+" Colors
+let color0  = "#0a0c0f"
+let color1  = "#545861"
+let color2  = "#843E45"
+let color3  = "#9E555B"
+let color4  = "#DB5F65"
+let color5  = "#838A7A"
+let color6  = "#709E8E"
+let color7  = "#b3dcca"
+let color8  = "#7d9a8d"
+let color9  = "#545861"
+let color10 = "#843E45"
+let color11 = "#9E555B"
+let color12 = "#DB5F65"
+let color13 = "#838A7A"
+let color14 = "#709E8E"
+let color15 = "#b3dcca"

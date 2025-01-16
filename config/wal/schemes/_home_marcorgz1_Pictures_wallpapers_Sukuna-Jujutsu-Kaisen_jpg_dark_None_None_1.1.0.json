@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/Sukuna-Jujutsu-Kaisen.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0e15",
+        "foreground": "#ced5da",
+        "cursor": "#ced5da"
+    },
+    "colors": {
+        "color0": "#0a0e15",
+        "color1": "#4E5C69",
+        "color2": "#566775",
+        "color3": "#82867A",
+        "color4": "#677986",
+        "color5": "#768894",
+        "color6": "#92A1A8",
+        "color7": "#ced5da",
+        "color8": "#909598",
+        "color9": "#4E5C69",
+        "color10": "#566775",
+        "color11": "#82867A",
+        "color12": "#677986",
+        "color13": "#768894",
+        "color14": "#92A1A8",
+        "color15": "#ced5da"
+    }
+}

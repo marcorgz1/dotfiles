@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/pill-minimal-mm.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050514",
+        "foreground": "#e6c5c7",
+        "cursor": "#e6c5c7"
+    },
+    "colors": {
+        "color0": "#050514",
+        "color1": "#5B506B",
+        "color2": "#A93838",
+        "color3": "#BB4F59",
+        "color4": "#766F86",
+        "color5": "#99728C",
+        "color6": "#A6A3A8",
+        "color7": "#e6c5c7",
+        "color8": "#a1898b",
+        "color9": "#5B506B",
+        "color10": "#A93838",
+        "color11": "#BB4F59",
+        "color12": "#766F86",
+        "color13": "#99728C",
+        "color14": "#A6A3A8",
+        "color15": "#e6c5c7"
+    }
+}

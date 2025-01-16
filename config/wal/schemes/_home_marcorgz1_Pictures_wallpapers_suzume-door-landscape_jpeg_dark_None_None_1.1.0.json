@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/suzume-door-landscape.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c1321",
+        "foreground": "#c3deea",
+        "cursor": "#c3deea"
+    },
+    "colors": {
+        "color0": "#0c1321",
+        "color1": "#ABA463",
+        "color2": "#306392",
+        "color3": "#5B728B",
+        "color4": "#73ABC7",
+        "color5": "#A09D99",
+        "color6": "#C6BBAF",
+        "color7": "#c3deea",
+        "color8": "#889ba3",
+        "color9": "#ABA463",
+        "color10": "#306392",
+        "color11": "#5B728B",
+        "color12": "#73ABC7",
+        "color13": "#A09D99",
+        "color14": "#C6BBAF",
+        "color15": "#c3deea"
+    }
+}

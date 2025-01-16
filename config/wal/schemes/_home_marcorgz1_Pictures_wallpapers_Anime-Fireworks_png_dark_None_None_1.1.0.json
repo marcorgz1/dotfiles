@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/Anime-Fireworks.png",
+    "alpha": "100",
+    "special": {
+        "background": "#121e23",
+        "foreground": "#d8aabd",
+        "cursor": "#d8aabd"
+    },
+    "colors": {
+        "color0": "#121e23",
+        "color1": "#4D486F",
+        "color2": "#674D6B",
+        "color3": "#B95C6C",
+        "color4": "#58A05A",
+        "color5": "#F1A86C",
+        "color6": "#635084",
+        "color7": "#d8aabd",
+        "color8": "#977684",
+        "color9": "#4D486F",
+        "color10": "#674D6B",
+        "color11": "#B95C6C",
+        "color12": "#58A05A",
+        "color13": "#F1A86C",
+        "color14": "#635084",
+        "color15": "#d8aabd"
+    }
+}

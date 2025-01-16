@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/marcorgz1/Pictures/wallpapers/404-page_not_found.png",
+    "alpha": "100",
+    "special": {
+        "background": "#101114",
+        "foreground": "#a9c0ea",
+        "cursor": "#a9c0ea"
+    },
+    "colors": {
+        "color0": "#101114",
+        "color1": "#0318FE",
+        "color2": "#2028F8",
+        "color3": "#316EEE",
+        "color4": "#4C73E6",
+        "color5": "#4986DD",
+        "color6": "#4A87F4",
+        "color7": "#a9c0ea",
+        "color8": "#7686a3",
+        "color9": "#0318FE",
+        "color10": "#2028F8",
+        "color11": "#316EEE",
+        "color12": "#4C73E6",
+        "color13": "#4986DD",
+        "color14": "#4A87F4",
+        "color15": "#a9c0ea"
+    }
+}
