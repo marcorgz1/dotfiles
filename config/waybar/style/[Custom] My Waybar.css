@@ -165,8 +165,8 @@ tooltip {
 #custom-weather.sunnyDay {
 	padding-top: 4px;
 	padding-bottom: 4px;
-	padding-right: 12px;
-	padding-left: 12px;
+	padding-right: 6px;
+	padding-left: 6px;
 }
 
 #temperature.critical {
@@ -242,7 +242,9 @@ tooltip {
 }
 
 #custom-power {
-  color: #c2ffb3;
+  color: @black;
+  background: @lavender;
+  border-radius: 8px;
 }
 
 #pulseaudio-slider slider {

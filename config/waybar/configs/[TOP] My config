@@ -47,6 +47,8 @@
   "custom/separator#dot-line",
 	"bluetooth",
   "custom/separator#dot-line",
-  "pulseaudio#1"
+  "pulseaudio#1",
+  "custom/separator#dot-line",
+  "custom/power"
 	],
 }
