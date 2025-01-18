@@ -1,6 +1,7 @@
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Dizzy.png" alt="Dizzy" width="25" height="25" /> My Hyprland dots <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Dizzy.png" alt="Dizzy" width="25" height="25" />
 
-![Hyprland dots Screenshot](https://github.com/user-attachments/assets/09bfa33b-26c6-402f-a71a-af5d8917df9c)
+![Hyprland dots Screenshot](https://github.com/user-attachments/assets/e79dfcf5-3465-4943-9b42-60f96be4e3c7)
+
 
 ## Installation
 
