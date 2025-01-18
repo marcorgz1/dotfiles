@@ -1,4 +1,6 @@
-# My Hyprland dotfiles
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Dizzy.png" alt="Dizzy" width="25" height="25" /> My Hyprland dots <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Dizzy.png" alt="Dizzy" width="25" height="25" />
+
+![Hyprland dots Screenshot](https://github.com/user-attachments/assets/09bfa33b-26c6-402f-a71a-af5d8917df9c)
 
 ## Installation
 
