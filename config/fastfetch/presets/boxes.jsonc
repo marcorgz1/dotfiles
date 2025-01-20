@@ -41,10 +41,10 @@
       // CONSTANT {$1} - COLOR BACKGROUND FOR KEY
       "\u001b[48;2;43;43;69m",
       // CONSTANT {$2} - COLOR BACKGROUND FOR OUTPUT
-      "\u001b[48;2;56;59;78m",
+      "\u001b[48;2;40;43;62m",
       // CONSTANT {$3} - VERTICAL BARS AT START AND 75th CHARACTERS FORWARD AND BACKWARD
       "\u001b[90m│                                                            │\u001b[60D\u001b[39m",
-    ],
+    ]
   },
   //------------COLOR------------
   // CSI n m
@@ -179,11 +179,11 @@
       // {3}: Home directory - home-dir
       // The default is something similar to "{6}{7}{8}".
     },
-    {
-      "type": "users",
-      "key": "{#90}{$1}│ {#92}Users       {#90}│",
-      "myselfOnly": false,
-      "format": "{$2}{$3}{1}@{host-name} {#2}[Login time: {login-time}]",
+    // {
+      // "type": "users",
+      // "key": "{#90}{$1}│ {#92}Users       {#90}│",
+      // "myselfOnly": false,
+      // "format": "{$2}{$3}{1}@{2} {#2}[Login time: {login-time}]",
       // fastfetch -h users-format
       // {1}: User name - user-name
       // {2}: Host name - host-name
@@ -191,7 +191,7 @@
       // {4}: Client IP - client-ip
       // {5}: Login Time in local timezone - login-time
       // The default is something similar to "{1}@{2} - login time {5}".
-    }, 
+    // }, 
     {
       "type": "datetime",
       "key": "{#90}{$1}│ {#92}Datetime    {#90}│",
