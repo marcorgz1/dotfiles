@@ -3,7 +3,7 @@
 /* --- 👍 designed by https://github.com/Krautt  👍 --- */
 
 * {
-	font-family: "BigBlueTerm Mono Nerd Font";
+	font-family: "JetBrainsMono Nerd Font";
 	font-weight: bold;
 	min-height: 0;		
 	/* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
@@ -73,7 +73,7 @@ tooltip {
 }
 
 #workspaces button {
-   color: @white;
+   color: @rosewater;
 	border-radius: 50%;
   background: transparent;	
   box-shadow: none;
@@ -162,10 +162,10 @@ tooltip {
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight,
 #custom-weather.sunnyDay {
-	padding-top: 4px;
-	padding-bottom: 4px;
-	padding-right: 6px;
-	padding-left: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 8px;
+	padding-left: 8px;
 }
 
 #temperature.critical {
@@ -227,7 +227,7 @@ tooltip {
 }
 
 #tray {
-  background: #005375;
+  background: @surface0;
   border-radius: 8px;
 }
 

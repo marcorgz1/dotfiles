@@ -21,36 +21,35 @@
   "margin-right": 8,
 
 "modules-left": [
-	"custom/separator#blank",
-  "hyprland/workspaces#rw",
+  "hyprland/workspaces",
   "custom/separator#blank_3",
-	"custom/cava_mviz",
+  "custom/cava_mviz",
   "custom/separator#blank_2",
-  "custom/user_host"
+  "tray"
 ],
 
 "modules-center": [
   "custom/menu",
+  "custom>/separator#blank",
+  "custom/lock",
+  "custom>/separator#blank",
   "clock#4",
-  "custom/separator#blank_2",
-  "cpu",
-  "custom/separator#blank_2",
-  "disk",
-  "custom/separator#blank_2",
-  "memory",
-  "custom/separator#blank",
-  "custom/lock"
+  "custom/separator#blank_3",
+  "hyprland/window"
   ], 
 
-"modules-right": [
-  "custom/spotify", 
-  "custom/separator#dot-line",
-	"tray",
-  "custom/separator#dot-line",
+  "modules-right": [
+    "custom/spotify",
+    "custom/separator#dot-line",
+    "cpu",
+    "custom/separator#blank_2",
+    "disk",
+    "custom/separator#blank_2",
+    "memory",
 	"bluetooth",
-  "custom/separator#dot-line",
-  "pulseaudio#1",
-  "custom/separator#dot-line",
-  "custom/power"
-	],
+    "custom/separator#dot-line",
+    "pulseaudio#1",
+    "custom/separator#dot-line",
+    "custom/power"
+  ]
 }
