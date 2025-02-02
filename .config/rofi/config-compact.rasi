@@ -1,7 +1,7 @@
 /* ---- 💫 https://github.com/JaKooLit 💫 ---- */
 /* Main Config (compact) */
 
-@import "~/.config/rofi/master-config.rasi"  
+@import "~/.config/rofi/config.rasi"  
 
 /* ---- Configuration ---- */ 
 configuration {
@@ -16,7 +16,7 @@ window {
 
 /* ---- Inputbar ---- */
 inputbar {
-  background-image: url("~/Pictures/wallpapers/11.jpg", width);
+  background-image: url("~/.config/rofi/.current_wallpaper", width);
 }
 
 /* ---- Imagebox ---- */
@@ -27,18 +27,17 @@ imagebox {
 
 /* ---- Entry input ---- */
 entry {
-    width: 23%;
-  placeholder: "👀  View / Edit Hyprland Configs";
-  placeholder-color: #c8fdff;
+  width: 23%;
+  placeholder: " 👀  View / Edit Hyprland Configs";
 }
 
 /* ---- Listview ---- */
-listview { 
+listview {
   spacing: 4px;
   border-radius: 12px;
 }
 
 /* ---- Element ---- */
 element {
-    border-radius: 10px;
+  border-radius: 10px;
 }

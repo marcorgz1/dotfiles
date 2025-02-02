@@ -3,11 +3,24 @@
 
 /* Generally, this is a potential expanding of choices for hyprland/workspace */
 // HYPRLAND WORKSPACES. CHOOSE as desired and place on waybar configs
-
 {
-// CIRCLES Style
+// NO Style
 "hyprland/workspaces": {
-  "active-only": false,
+	"active-only": false,
+	"all-outputs": true,
+	"format": "{icon}",
+	"show-special": false,
+	"on-click": "activate",
+	"on-scroll-up": "hyprctl dispatch workspace e+1",
+	"on-scroll-down": "hyprctl dispatch workspace e-1",
+    "persistent-workspaces": {
+      "*": 5
+	}
+},
+
+// CIRCLES Style
+"hyprland/workspaces#circle": {
+	"active-only": false,
 	"all-outputs": true,
 	"format": "{icon}",
 	"show-special": false,
@@ -17,27 +30,11 @@
     "persistent-workspaces": {
       "*": 5
 	},
-  "format": "{icon}:{windows}",
-	"window-rewrite-default": "󰣆",
-	"window-rewrite": {
-	  "class<firefox> title<.*youtube.*>": "",
-	  "class<firefox> title<.*github.*>": "",
-	  "class<firefox> title<.*twitch.*>": "",
-	  "class<kitty> title<.*nvim.*>": "",
-	  "class<code-oss>": "",
-	  "class<steam>": "",
-	  "class<firefox>": "󰈹",
-    "class<brave-browser>": "",
-	  "class<kitty>": "󰄛",
-	  "class<godot>": "",
-	  "class<nemo>": "󰉋",
-	  "class<vesktop>": "",
-    "class<spotify>": "",
-	  "class<waypaper>": "",
-	  "class<thunderbird>": ""
+	"format-icons": {
+		"active": "",
+		"default": "",
 	},
 },
-
 // ROMAN Numerals style
 "hyprland/workspaces#roman": {
 	"active-only": false,
@@ -178,8 +175,9 @@
 		"class<kitty|konsole>": " ",
 		"class<kitty-dropterm>": " ",
 		"class<Chromium|Thorium>": " ",
+    "class<brave-browser>": " ",
 		"class<org.telegram.desktop|io.github.tdesktop_x64.TDesktop>": " ",
-		"class<[Ss]potify>": " ",
+		"class<[Ss]potify>": " ",
 		"class<VSCode|code-url-handler|code-oss|codium|codium-url-handler|VSCodium>": "󰨞 ",
 		"class<thunar>": "󰝰 ",
 		"class<[Tt]hunderbird|[Tt]hunderbird-esr>": " ",

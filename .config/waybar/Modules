@@ -110,8 +110,8 @@
 "clock": {
 	"interval": 1,
     //"format": " {:%I:%M %p}", // AM PM format
-    "format": " {:%H:%M:%S}", // 24H
-	"format-alt": " {:%H:%M   %Y, %d %B, %A}",
+    "format": "  {:%H:%M:%S}", // 24H
+	"format-alt": "  {:%H:%M   %Y, %d %B, %A}",
 	"tooltip-format": "<tt><small>{calendar}</small></tt>",
 	"calendar": {
 		"mode": "year",
@@ -136,7 +136,7 @@
 },
 "clock#2": {
     //"format": " {:%I:%M %p}", // AM PM format
-    "format": "  {:%H:%M}", // 24H
+    "format": "<span color='#b7fef9'> </span> {:%H:%M}", // 24H
     "format-alt": "{:%A  |  %H:%M  |  %e %B}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
 },
@@ -148,7 +148,8 @@
 "clock#4": {
 	"interval": 60,
     //"format": "{:%B | %a %d, %Y | %I:%M %p}", // AM PM format
-    "format": "{:%B | %a %d, %Y | %H:%M}", // 24H
+    //"format": "{:%B | %a %d, %Y | %H:%M}", // 24H
+  "format": "{:%B | %a %d, %Y | %H:%M}",
 	"format-alt": "{:%a %b %d, %G}",
 	"tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
 },
@@ -156,6 +157,10 @@
     //"format": "{:%A, %I:%M %P}", // AM PM format
     "format": "{:%a %d | %H:%M}", // 24H
 	"format-alt": "{:%A, %d %B, %Y (%R)}"
+},
+"clock#6": {
+  "format": "🗓️ {:%B | %a %d, %Y | %H:%M}",
+  "format-alt": "{:%A, %d %B, %Y (%R)}"
 },
 "cpu": {
 	"format": "{usage}% 󰍛",
@@ -194,12 +199,117 @@
 	"separate-outputs": true,
 	"offscreen-css": true,
 	"offscreen-css-text": "(inactive)",
-	"rewrite": {
-		"(.*) — Mozilla Firefox": " $1",
-		"(.*) - fish": "> [$1]",
-		"(.*) - zsh": "> [$1]",
-		"(.*) - $term": "> [$1]",
-	},
+	// === Window Titles ===
+
+    "rewrite": {
+      // == Desktop ==
+
+      "": 
+        "<span foreground='#89b4fa'> </span> Hyprland",
+
+      // == Terminal ==
+
+      "~": "  Terminal",
+      "zsh": "  Terminal",
+      "kitty": "  Terminal",
+      "sejjy@archlinux:(.*)": "  Terminal",
+      "(.*)sejjy@archlinux:~": "  Terminal",
+
+      // == Browser ==
+
+      "(.*)Mozilla Firefox": 
+        "<span foreground='#f38ba8'>󰈹 </span> Firefox",
+      "(.*) — Mozilla Firefox": 
+        "<span foreground='#f38ba8'>󰈹 </span> $1",
+
+      "(.*)Zen Browser": 
+        "<span foreground='#cdd6f4'>󰈹 </span> Zen Browser",
+      "(.*) — Zen Browser": 
+        "<span foreground='#cdd6f4'>󰈹 </span> $1",
+
+      // == Development ==
+
+      "(.*) - Visual Studio Code": 
+        "<span foreground='#89b4fa'>󰨞 </span> $1",
+      "(.*)Visual Studio Code": 
+        "<span foreground='#89b4fa'>󰨞 </span> Visual Studio Code",
+
+      "nvim": 
+        "<span foreground='#a6e3a1'> </span> Neovim",
+      "nvim (.*)": 
+        "<span foreground='#a6e3a1'> </span> $1",
+
+      "vim": 
+        "<span foreground='#a6e3a1'> </span> Vim",
+      "vim (.*)": 
+        "<span foreground='#a6e3a1'> </span> $1",
+
+      "Godot": 
+        "<span foreground='#89b4fa'> </span> Godot Engine",
+      "Godot Engine - (.*)": 
+        "<span foreground='#89b4fa'> </span> $1",
+      "(.*) - Godot Engine": 
+        "<span foreground='#89b4fa'> </span> $1",
+
+      // == Media ==
+
+      "(.*)Spotify": 
+        "<span foreground='#a6e3a1'> </span> Spotify",
+      "(.*)Spotify Premium": 
+        "<span foreground='#a6e3a1'> </span> Spotify Premium",
+
+      "OBS(.*)": 
+        "<span foreground='#a6adc8'>󰐌 </span> OBS Studio",
+
+      "VLC media player": 
+        "<span foreground='#fab387'>󰕼 </span> VLC Media Player",
+      "(.*) - VLC media player": 
+        "<span foreground='#fab387'>󰕼 </span> $1",
+
+      "(.*) - mpv": 
+        "<span foreground='#cba6f7'> </span> $1",
+
+      "GNU Image Manipulation Program": 
+        "<span foreground='#a6adc8'> </span> GNU Image Manipulation Program",
+
+      "qView": "  qView",
+
+      "(.*).jpg": "  $1.jpg",
+      "(.*).png": "  $1.png",
+      "(.*).svg": "  $1.svg",
+
+      // == Social ==
+
+      "vesktop": 
+        "<span foreground='#89b4fa'> </span> Discord",
+
+      "• Discord(.*)": "Discord$1",
+      "(.*)Discord(.*)": 
+        "<span foreground='#89b4fa'> </span> $1Discord$2",
+
+      // == Documents ==
+
+      "ONLYOFFICE Desktop Editors": 
+        "<span foreground='#f38ba8'> </span> OnlyOffice Desktop",
+
+      "(.*).docx": 
+        "<span foreground='#89b4fa'> </span> $1.docx",
+      "(.*).xlsx": 
+        "<span foreground='#a6e3a1'> </span> $1.xlsx",
+      "(.*).pptx": 
+        "<span foreground='#fab387'> </span> $1.pptx",
+      "(.*).pdf": 
+        "<span foreground='#f38ba8'> </span> $1.pdf",
+
+      "/": "  File Manager",
+
+      // == System ==
+
+      "Timeshift-gtk": 
+        "<span foreground='#a6e3a1'> </span> Timeshift",
+
+      "Authenticate": "  Authenticate"
+    }
 },
 "idle_inhibitor": {
 	"tooltip": true,
@@ -259,7 +369,7 @@
 		"stopped": "",
 	},
 	// "ignored-players": ["firefox"]
-	"max-length": 30,
+	"max-length": 100,
 },
 "network": {
 	"format": "{ifname}",
@@ -383,6 +493,7 @@
 	"tooltip-format": "{title}",
 	"on-click": "activate",
 	"on-click-middle": "close",
+  "deduplicate": true,
 	"ignore-list": [
 		"wofi",
 		"rofi",

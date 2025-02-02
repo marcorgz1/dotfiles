@@ -34,7 +34,7 @@
     // Modules configuration
     
     "wlr/taskbar": {
-	    "format": "{icon} {name}",
+	    "format": "{icon} {name}  ",
 	    "icon-size": 22,
 	    "all-outputs": false,
 	    "tooltip-format": "{title}",
@@ -77,37 +77,37 @@
     "custom/terminal": {
       "format": "",
       "tooltip": false,
-      "on-click": "wezterm"
+      "on-click": "kitty"
     },
 
     "custom/browser": {
       "format": "",
       "tooltip": false,
-      "on-click": "brave"
+      "on-click": "brave-browser"
     },
 
     "custom/files": {
       "format": "",
       "tooltip": false,
-      "on-click": "wezterm -e ranger"
+      "on-click": "kitty -e thunar"
     },
 
     "custom/spotify": {
       "format": "",
       "tooltip": false,
-      "on-click": "spotify"
+      "on-click": "spotify-client"
     },
 
     "custom/discord": {
       "format": "",
       "tooltip": false,
-      "on-click": "discord"
+      "on-click": "discord.desktop"
     },
 
     "custom/code-editor": {
       "format": "",
       "tooltip": false,
-      "on-click": "wezterm -e nvim"
+      "on-click": "kitty -e nvim"
     },
 
     "hyprland/workspaces": {

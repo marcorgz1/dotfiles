@@ -25,7 +25,9 @@
   "custom/separator#blank_3",
   "custom/cava_mviz",
   "custom/separator#blank_2",
-  "tray"
+  "tray",
+  "custom/separator#blank_3",
+  "hyprland/window"
 ],
 
 "modules-center": [
@@ -33,14 +35,12 @@
   "custom>/separator#blank",
   "custom/lock",
   "custom>/separator#blank",
-  "clock#4",
-  "custom/separator#blank_3",
-  "hyprland/window"
+  "clock#4"
   ], 
 
   "modules-right": [
     "custom/spotify",
-    "custom/separator#dot-line",
+    "custom/separator#blank_2",
     "cpu",
     "custom/separator#blank_2",
     "disk",

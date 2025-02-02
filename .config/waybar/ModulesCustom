@@ -16,7 +16,7 @@
 
 "custom/spotify": {
   "exec": "python3 ~/.config/hypr/scripts/MediaPlayer.py --player spotify",
-  "format": "    {}",
+  "format": "      {}",
   "return-type": "json",
   "on-click": "playerctl play-pause",
   "on-scroll-up": "playerctl next",
@@ -115,7 +115,7 @@
 },
 
 "custom/lock": {
-	"format": "󰌾",
+	"format": "󰌾 ",
 	"on-click": "$HOME/.config/hypr/scripts/LockScreen.sh",
 	"tooltip": true,
 	"tooltip-format": "󰷛 Screen Lock",
