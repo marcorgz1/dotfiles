@@ -156,9 +156,11 @@
     //    },
     //       
 
-    // CUSTOM - Top UI bar    
-    "break",
-    "break",
+    // CUSTOM - Top UI bar
+    {
+        "type": "custom",
+        "key": "{#93} Marco"
+    },
     {
       "type": "custom",
       "key": "{#90}{$1}╭─────────────╮",
@@ -355,7 +357,7 @@
     {
       "type": "terminalfont",
       "key": "{#90}{$1}│ {#95}Font        {#90}│",
-      "format": "{$2}{$3}{name}  {#2}[{size}]",
+      "format": "{$2}{$3}{name}",
       // fastfetch -h terminalfont-format
       // {2}: Terminal font name - name
       // {3}: Terminal font size - size
