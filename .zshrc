@@ -1,6 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="zsh2000"
+ZSH_THEME="nt9"
 
 plugins=(
     git
@@ -31,6 +31,9 @@ alias ggpull='git pull'
 alias ggstatus='git status'
 alias gglog="git log"
 
+alias ff='fastfetch'
+alias of='onefetch'
+
 alias open="thunar"
 alias py='python3'
 alias zshrc='nvim ~/.zshrc'
@@ -53,3 +56,6 @@ esac
 
 export PATH=$PATH:/home/marcorgz1/.spicetify
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/marcorgz1/.lmstudio/bin"
