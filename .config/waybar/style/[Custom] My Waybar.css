@@ -185,7 +185,7 @@ tooltip {
 }
 
 #custom-user_host {
-  color: @lavender;
+  color: @teal;
 }
 
 #custom-menu {
@@ -203,19 +203,22 @@ tooltip {
 }
 
 #cpu {
-  color: @sky;
+  color: @black;
+  background: @flamingo;
   border-radius: 8px;
 }
 
 #disk {
-  color: @sapphire;
+  color: @black;
+  background: @blue;
   border-radius: 8px;
 }
 
 #memory {
-  color: @yellow;
+  color: @black;
+  background: @red;
   border-radius: 8px;
-  padding-right: 26px;
+  margin-right: 14px;
 }
 
 #custom-lock {
