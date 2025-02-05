@@ -21,6 +21,8 @@
   "margin-right": 8,
 
 "modules-left": [
+  "custom/user_host",
+  "custom/separator#blank_2",
   "hyprland/workspaces",
   "custom/separator#blank_3",
   "custom/cava_mviz",
@@ -34,7 +36,7 @@
   "custom/menu",
   "custom>/separator#blank",
   "custom/lock",
-  "custom>/separator#blank",
+  "custom/separator#blank",
   "clock#4"
   ], 
 
