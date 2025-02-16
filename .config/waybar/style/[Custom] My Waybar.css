@@ -44,9 +44,8 @@ tooltip {
 
 /*-----module groups----*/
 .modules-right {
-    /* border: 1px solid @red; */
+    /* border: 0.5px solid @red; */
 	border-radius: 100px;
-	/*background-color: #3d174b;*/
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-right: 16px;
@@ -54,7 +53,7 @@ tooltip {
 }
 
 .modules-center {
-    border: 1px solid @lavender;
+    /* border: 1px solid @lavender; */
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-right: 8px;
@@ -64,7 +63,7 @@ tooltip {
 
 .modules-left {
 	/*background-color: #1e1e2e;*/
-	border: 1px solid @sky;
+	/* border: 1px solid @sky; */
 	border-radius: 100px;
 	/*background-color: #441a53;*/
 	padding-top: 2px;
@@ -74,7 +73,7 @@ tooltip {
 }
 
 #workspaces button {
-   color: @rosewater;
+   color: @lavender;
 	border-radius: 50%;
   background: transparent;	
   box-shadow: none;
@@ -137,6 +136,7 @@ tooltip {
 #workspaces,
 #custom-cava_mviz,
 #custom-user_host,
+#custom-uptime,
 #custom-file_manager,
 #custom-keybinds,
 #custom-keyboard,
@@ -186,9 +186,14 @@ tooltip {
 }
 
 #custom-user_host {
-  color: @white;
-  background: @marine;
+  color: @yellow;
   border-radius: 8px;
+  margin-left: 4px;
+}
+
+#custom-uptime {
+    color: @white;
+    border-radius: 8px;
 }
 
 #custom-menu {
@@ -206,20 +211,17 @@ tooltip {
 }
 
 #cpu {
-  color: @black;
-  background: @flamingo;
+  color: @sapphire;
   border-radius: 8px;
 }
 
 #disk {
-  color: @black;
-  background: @blue;
+  color: @flamingo;
   border-radius: 8px;
 }
 
 #memory {
-  color: @black;
-  background: @red;
+  color: @peach;
   border-radius: 8px;
   margin-right: 14px;
 }
@@ -242,24 +244,22 @@ tooltip {
 }
 
 #bluetooth {
-  color: @black;
-  background: @sky;
+  color: @sky;
   border-radius: 8px;
   padding-left: 12px;
 }
 
 #pulseaudio {
-  color: @black;
-  background: @peach;
+  color: @green;
   border-radius: 8px;
 }
 
 #custom-power {
-  color: @black;
-  background: @lavender;
+  color: @red;
   border-radius: 8px;
 }
 
+/*
 #pulseaudio-slider slider {
 	min-width: 0px;
 	min-height: 0px;
@@ -281,6 +281,7 @@ tooltip {
 	border-radius: 5px;
 	background-color: purple;
 }
+*/
 
 #backlight-slider slider {
 	min-width: 0px;
