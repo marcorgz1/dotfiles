@@ -2,6 +2,7 @@
 
 ![Hyprland dots screenshot](screenshots/image.jpg)
 ![Hyprland dots screenshot 2](screenshots/image2.jpg)
+![Hyprland dots screenshot 3](screenshots/image3.jpg)
 
 ## Installation
 
