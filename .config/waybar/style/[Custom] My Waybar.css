@@ -74,6 +74,7 @@ tooltip {
 
 #workspaces button {
    color: @lavender;
+   font-weight: bold;
 	border-radius: 50%;
   background: transparent;	
   box-shadow: none;
@@ -88,6 +89,7 @@ tooltip {
 
 #workspaces button.active {
   color: @green;
+  font-weight: bold;
   padding-left: 8px;
   padding-right: 8px;
   animation: gradient_f 20s ease-in infinite;
