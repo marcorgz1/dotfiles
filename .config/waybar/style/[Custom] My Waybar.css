@@ -192,7 +192,7 @@ tooltip {
 }
 
 #custom-uptime {
-    color: @white;
+    color: @blue;
     border-radius: 8px;
 }
 
