@@ -50,8 +50,9 @@ GDK_BACKEND=$BACKEND yad --width=$dynamic_width --height=$dynamic_height \
 " SHIFT enter" "DropDown Terminal" "(kitty-pyprland)" \
 " SHIFT K" "Searchable Keybinds" "(Keybinds)" \
 " A" "Desktop Overview" "(AGS Overview)" \
-" D" "App Launcher" "(rofi-wayland)" \
+" SPACE" "App Launcher" "(rofi-wayland)" \
 " T" "Open File Manager" "(Thunar)" \
+" SHIFT Y" "Open Terminal FIle Manager" "(Yazi)" \
 " S" "Google Search" "(rofi)" \
 " Q" "close active window" "(not kill)" \
 " Shift Q " "kills an active window" "(kill)" \
@@ -80,7 +81,7 @@ GDK_BACKEND=$BACKEND yad --width=$dynamic_width --height=$dynamic_height \
 " ALT F" "Toggle all windows to float" "all windows" \
 " Shift B" "Toggle Blur" "normal or less blur" \
 " SHIFT G" "Gamemode! All animations OFF or ON" "toggle" \
-" ALT E" "Rofi Emoticons" "Emoticon" \
+" Period" "Rofi Emoticons" "Emoticons" \
 " ALT V" "Clipboard Manager" "cliphist" \
 " H" "Launch this app" "" \
 " E" "View or EDIT Keybinds, Settings, Monitor" "" \

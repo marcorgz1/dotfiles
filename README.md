@@ -12,7 +12,7 @@ Here you are able to clone this repository to copy the config or to get inspirat
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" alt="Alien Monster" width="25" height="25" /> Terminal & Shell
 
-- [**Kitty:**](https://github.com/kovidgoyal/kitty) A simple terminal with a config file that makes very easy to customize it. Customize with **Catppuccin color scheme**.
+- [**Wezterm:**](https://github.com/wezterm/wezterm) A terminal with a big collection of features, a config file (`.wezterm.lua`) and an extended documentation that makes very easy to customize and use it. Customize with **Catppuccin color scheme**.
 - [**Zsh:**](https://github.com/ohmyzsh/ohmyzsh) A shel with a custom config (`.zshrc`) that allows you to use a collection of themes and plugins to improve your experience with the terminal.
 
 ### 💻 Tools & Utilities
