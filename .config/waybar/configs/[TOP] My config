@@ -25,9 +25,7 @@
   "custom/separator#blank_2",
   "custom/uptime",
   "custom/separator#blank_2",
-  "hyprland/workspaces#custom",
-  "custom/separator#blank_3",
-  "custom/cava_mviz",
+  "hyprland/workspaces#custom",  
   "custom/separator#blank_2",
   "tray",
   "custom/separator#blank_3",
@@ -43,19 +41,12 @@
   "modules-right": [
     "custom/spotify",
     "custom/separator#blank_2",
-    "cpu",
-    "custom/separator#dot-line",
-    "disk",
-    "custom/separator#dot-line",
-    "memory",
+    "custom/cava_mviz",
     "custom/separator#blank",
-    "custom/separator#dot-line",
 	"bluetooth",
     "custom/separator#dot-line",
     "pulseaudio#1",
     "custom/separator#blank",
-    "pulseaudio#microphone",
-    "custom/separator#dot-line",
-    "custom/power"
+    "pulseaudio#microphone", 
   ]
 }
