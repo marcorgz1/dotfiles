@@ -39,7 +39,7 @@ tooltip {
 }
 
 .modules-left, .modules-center, .modules-right {
-  background: #1a0027;
+  background: shade(@base, 0.9);
 }
 
 /*-----module groups----*/
@@ -73,7 +73,7 @@ tooltip {
 }
 
 #workspaces button {
-   color: @lavender;
+   color: @surface2;
    font-weight: bold;
 	border-radius: 50%;
   background: transparent;	
@@ -106,7 +106,7 @@ tooltip {
 }
 
 #workspaces button:hover {
-	color: #9CCFD8;
+	color: @overlay0;
     border-radius: 15px;
  	padding-left: 2px;
     padding-right: 2px;
@@ -167,8 +167,8 @@ tooltip {
 #custom-weather.sunnyDay {
 	padding-top: 6px;
 	padding-bottom: 6px;
-	padding-right: 8px;
-	padding-left: 8px;
+	padding-right: 6px;
+	padding-left: 6px;
 }
 
 #temperature.critical {
@@ -207,6 +207,10 @@ tooltip {
   color: #ffd4ff;
 }
 
+#custom-swaync {
+    color: @sky;
+}
+
 #custom-spotify {
   color: @yellow;
   margin-right: 8px;
@@ -229,16 +233,7 @@ tooltip {
 }
 
 #custom-lock {
-    color: @red;
-}
-
-#custom-swaync {
-  color: #cfcfcf;
-}
-
-#tray {
-  background: @surface0;
-  border-radius: 8px;
+    color: @blue;
 }
 
 #window {
@@ -258,7 +253,6 @@ tooltip {
 
 #custom-power {
   color: @red;
-  border-radius: 8px;
 }
 
 /*
