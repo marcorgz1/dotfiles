@@ -36,6 +36,9 @@ Here you are able to clone this repository to copy the config or to get inspirat
 > If you press `Windows key + H` the help window with many of the available shotcuts will open.
 > If you have any question, you can ask me on <span style="color:  #00c1ff; margin-right: 12px;"> </span> discord (markix.).
 
+## 🎬 Credits
+Lot of the configs are based on [JaKoolit](https://github.com/JaKooLit) dotfiles. Thanks to him! 💜
+
 <br />
 
 ## 📷 Screenshots
