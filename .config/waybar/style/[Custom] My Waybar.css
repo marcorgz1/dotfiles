@@ -3,115 +3,119 @@
 /* --- 👍 designed by https://github.com/Krautt  👍 --- */
 
 * {
-	font-family: "JetBrainsMono Nerd Font";
-	font-weight: bold;
-	min-height: 0;		
-	/* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
-	font-size: 14px;
-	font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
+  font-family: "JetBrainsMono Nerd Font";
+  font-weight: bold;
+  min-height: 0;
+  /* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
+  font-size: 14px;
+  font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
 }
 
 @import "../waybar/style/catppuccin-themes/mocha.css";
 
 window#waybar {
-  background: transparent;
-	color: #cba6f7;
+  background: #1f2335;
+  color: #cba6f7;
 }
 
 window#waybar.hidden {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
 window#waybar.empty,
 window#waybar.empty #window {
-	padding: 0px;
-	border: 0px;
-	background-color: transparent;
+  padding: 0px;
+  border: 0px;
+  background-color: transparent;
 }
 
 tooltip {
-/*	background: #1e1e2e; */
-	border-radius: 10px;
-	border-width: 2px;
-	border-style: solid;
-	border-color: #11111b;
-	color: #cba6f7;
+  /*	background: #1e1e2e; */
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #11111b;
+  color: #cba6f7;
 }
 
-.modules-left, .modules-center, .modules-right {
+/*
+.modules-left,
+.modules-center,
+.modules-right {
   background: shade(@base, 0.9);
 }
+*/
 
 /*-----module groups----*/
 .modules-right {
-    /* border: 0.5px solid @red; */
-	border-radius: 100px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	padding-right: 16px;
-	padding-left: 12px;
+  /* border: 0.5px solid @red; */
+  border-radius: 100px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 16px;
+  padding-left: 12px;
 }
 
 .modules-center {
-    /* border: 1px solid @lavender; */
-	padding-top: 2px;
-	padding-bottom: 2px;
-	padding-right: 8px;
-	padding-left: 8px;
+  /* border: 1px solid @lavender; */
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 8px;
+  padding-left: 8px;
   border-radius: 100px;
 }
 
 .modules-left {
-	/*background-color: #1e1e2e;*/
-	/* border: 1px solid @sky; */
-	border-radius: 100px;
-	/*background-color: #441a53;*/
-	padding-top: 2px;
-	padding-bottom: 2px;
+  /*background-color: #1e1e2e;*/
+  /* border: 1px solid @sky; */
+  border-radius: 100px;
+  /*background-color: #441a53;*/
+  padding-top: 2px;
+  padding-bottom: 2px;
   padding-right: 8px;
-	padding-left: 12px;
+  padding-left: 12px;
 }
 
 #workspaces button {
-   color: @surface2;
-   font-weight: bold;
-	border-radius: 50%;
-  background: transparent;	
+  color: @surface2;
+  font-weight: bold;
+  border-radius: 50%;
+  background: transparent;
   box-shadow: none;
-	text-shadow: none;
+  text-shadow: none;
   padding: 0px;
   border-radius: 9px;
   padding-left: 4px;
   padding-right: 4px;
   animation: gradient_f 20s ease-in infinite;
-  transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
+  transition: all 0.5s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
 #workspaces button.active {
-  color: @green;
+  color: #c3e88d;
   font-weight: bold;
   padding-left: 8px;
   padding-right: 8px;
   animation: gradient_f 20s ease-in infinite;
-  transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+  transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
 #workspaces button.focused {
-	color: #d8dee9;
+  color: #d8dee9;
 }
 
 #workspaces button.urgent {
-	color: #11111b;
-	border-radius: 10px;
+  color: #11111b;
+  border-radius: 10px;
 }
 
 #workspaces button:hover {
-	color: @overlay0;
-    border-radius: 15px;
- 	padding-left: 2px;
-    padding-right: 2px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+  color: @overlay0;
+  border-radius: 15px;
+  padding-left: 2px;
+  padding-right: 2px;
+  animation: gradient_f 20s ease-in infinite;
+  transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
 #backlight,
@@ -148,7 +152,7 @@ tooltip {
 #custom-hypridle,
 #custom-menu,
 #custom-power_vertical,
-#custom-power,
+/* #custom-power, */
 #custom-settings,
 #custom-spotify,
 #custom-swaync,
@@ -158,44 +162,56 @@ tooltip {
 #custom-weather.clearNight,
 #custom-weather.cloudyFoggyDay,
 #custom-weather.cloudyFoggyNight,
-#custom-weather.default, 
+#custom-weather.default,
 #custom-weather.rainyDay,
 #custom-weather.rainyNight,
 #custom-weather.severe,
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight,
 #custom-weather.sunnyDay {
-	padding-top: 6px;
-	padding-bottom: 6px;
-	padding-right: 6px;
-	padding-left: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 6px;
+  padding-left: 6px;
 }
 
 #temperature.critical {
-	background-color: #ff0000;
+  background-color: #ff0000;
 }
 
 @keyframes blink {
-	to {
-		color: #000000;
-	}
+  to {
+    color: #000000;
+  }
 }
 
 /*-----Indicators----*/
 #custom-cava_mviz {
   color: @mauve;
+  border: 1px solid @mauve;
+  border-radius: 6px;
+  padding: 0 12px;
   margin-right: 24px;
 }
 
 #custom-user_host {
-  color: @yellow;
+  color: #ffc777;
+  border: 1px solid @yellow;
+  padding: 10px;
   border-radius: 8px;
-  margin-left: 4px;
 }
 
 #custom-uptime {
-    color: @blue;
-    border-radius: 8px;
+  color: #7aa2f7;
+  border: 1px solid @blue;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#tray {
+  border: 1px solid @green;
+  border-radius: 14px;
+  padding: 10px;
 }
 
 #custom-menu {
@@ -208,11 +224,14 @@ tooltip {
 }
 
 #custom-swaync {
-    color: @sky;
+  color: @sky;
 }
 
 #custom-spotify {
   color: @yellow;
+  border: 1px solid @yellow;
+  padding: 12px;
+  border-radius: 12px;
   margin-right: 8px;
 }
 
@@ -233,26 +252,40 @@ tooltip {
 }
 
 #custom-lock {
-    color: @blue;
+  color: @blue;
+  border: 1px solid @blue;
+  margin-right: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
 }
 
 #window {
-    color: @yellow;
+  color: @yellow;
+  border: 1px solid #ffc777;
+  border-radius: 14px;
+  padding: 0 16px;
 }
 
 #bluetooth {
-  color: @sky;
-  border-radius: 8px;
-  padding-left: 12px;
+  color: #7dcfff;
+  border: 1px solid #7dcfff;
+  border-radius: 10px;
+  padding-left: 16px;
+  font-size: 18px;
 }
 
 #pulseaudio {
   color: @green;
+  border: 1px solid @green;
   border-radius: 8px;
+  margin-right: 12px;
+  padding: 10px;
 }
 
 #custom-power {
-  color: @red;
+  color: #ff757f;
+  font-size: 18px;
+  padding-left: 6px;
 }
 
 /*
@@ -280,23 +313,23 @@ tooltip {
 */
 
 #backlight-slider slider {
-	min-width: 0px;
-	min-height: 0px;
-	opacity: 0;
-	background-image: none;
-	border: none;
-	box-shadow: none;
+  min-width: 0px;
+  min-height: 0px;
+  opacity: 0;
+  background-image: none;
+  border: none;
+  box-shadow: none;
 }
 
 #backlight-slider trough {
-	min-width: 80px;
-	min-height: 10px;
-	border-radius: 5px;
-	background-color: #6E6A86;
+  min-width: 80px;
+  min-height: 10px;
+  border-radius: 5px;
+  background-color: #6e6a86;
 }
 
 #backlight-slider highlight {
-	min-width: 10px;
-	border-radius: 5px;
-	background-color: purple;
+  min-width: 10px;
+  border-radius: 5px;
+  background-color: purple;
 }
