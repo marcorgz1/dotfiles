@@ -26,11 +26,10 @@ window#waybar.empty,
 window#waybar.empty #window {
   padding: 0px;
   border: 0px;
-  background-color: transparent;
+  /* background-color: #1f2335; */
 }
 
 tooltip {
-  /*	background: #1e1e2e; */
   border-radius: 10px;
   border-width: 2px;
   border-style: solid;
@@ -94,6 +93,7 @@ tooltip {
 #workspaces button.active {
   color: #c3e88d;
   font-weight: bold;
+  font-size: 24px;
   padding-left: 8px;
   padding-right: 8px;
   animation: gradient_f 20s ease-in infinite;
