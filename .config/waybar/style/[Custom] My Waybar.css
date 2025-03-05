@@ -209,8 +209,6 @@ tooltip {
 }
 
 #tray {
-  border: 1px solid @green;
-  border-radius: 14px;
   padding: 10px;
 }
 
