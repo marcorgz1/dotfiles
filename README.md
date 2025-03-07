@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Dizzy.png" alt="Dizzy" width="25" height="25" /> My Hyprland dots <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Dizzy.png" alt="Dizzy" width="25" height="25" />
 
-Welcome! This is my dotfiles of my **Hyprland** environment using **Fedora distro**. A collection of configs based on **Catppuccin Mocha colorscheme.**
+Welcome! This is my dotfiles of my **Hyprland** environment using **Fedora distro**. A collection of configs based on **Catppuccin Mocha & Tokyo Night color schemes.**
 Here you are able to clone this repository to copy the config or to get inspiration for your Linux setup. <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Collision.png" alt="Collision" width="20" height="20" />
 
 ## 🛠️ Tools that I used
