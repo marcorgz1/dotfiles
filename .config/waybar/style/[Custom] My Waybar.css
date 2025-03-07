@@ -5,7 +5,7 @@
 * {
   font-family: "JetBrainsMono Nerd Font";
   font-weight: bold;
-  min-height: 0;
+  min-height: 36px;
   /* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
   font-size: 14px;
   font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
@@ -202,8 +202,7 @@ tooltip {
 }
 
 #custom-uptime {
-  color: #7aa2f7;
-  border: 1px solid @blue;
+  color: @blue;
   padding: 10px;
   border-radius: 8px;
 }
@@ -253,7 +252,7 @@ tooltip {
   color: @blue;
   border: 1px solid @blue;
   margin-right: 8px;
-  padding-left: 12px;
+  padding-left: 14px;
   border-radius: 8px;
 }
 
@@ -261,7 +260,7 @@ tooltip {
   color: @yellow;
   border: 1px solid #ffc777;
   border-radius: 14px;
-  padding: 0 16px;
+  padding: 0 12px;
 }
 
 #bluetooth {
@@ -277,7 +276,7 @@ tooltip {
   border: 1px solid @green;
   border-radius: 8px;
   margin-right: 12px;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 #custom-power {
