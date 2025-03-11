@@ -3,8 +3,7 @@
 /* --- 👍 designed by https://github.com/Krautt  👍 --- */
 
 * {
-  font-family: "JetBrainsMono Nerd Font";
-  font-weight: bold;
+  font-family: "BigBlueTerm437 Nerd Font";
   min-height: 36px;
   /* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
   font-size: 14px;
@@ -188,7 +187,7 @@ tooltip {
 /*-----Indicators----*/
 #custom-cava_mviz {
   color: @mauve;
-  border: 1px solid @mauve;
+  /* border: 1px solid @mauve; */
   border-radius: 6px;
   padding: 0 12px;
   margin-right: 24px;
@@ -226,7 +225,7 @@ tooltip {
 
 #custom-spotify {
   color: @yellow;
-  border: 1px solid @yellow;
+  /* border: 1px solid @yellow; */
   padding: 12px;
   border-radius: 12px;
   margin-right: 8px;
@@ -258,14 +257,13 @@ tooltip {
 
 #window {
   color: @yellow;
-  border: 1px solid #ffc777;
   border-radius: 14px;
   padding: 0 12px;
 }
 
 #bluetooth {
   color: #7dcfff;
-  border: 1px solid #7dcfff;
+  /* border: 1px solid #7dcfff; */
   border-radius: 10px;
   padding-left: 16px;
   font-size: 18px;
@@ -273,7 +271,7 @@ tooltip {
 
 #pulseaudio {
   color: @green;
-  border: 1px solid @green;
+  /* border: 1px solid @green; */
   border-radius: 8px;
   margin-right: 12px;
   padding: 0 10px;

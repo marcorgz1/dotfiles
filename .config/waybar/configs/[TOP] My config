@@ -23,20 +23,18 @@
 "modules-left": [
   "custom/uptime",
   "custom/separator#blank_2",
-  "hyprland/workspaces#custom",  
-  "custom/separator#blank_2",
-  "hyprland/window"
+  "hyprland/window",
+  "custom/separator#blank",
+  "tray"
 ],
 
 "modules-center": [
   "custom/menu",
   "custom/separator#blank",
-  "clock#4"
+  "hyprland/workspaces#custom"
   ], 
 
   "modules-right": [
-    "tray",
-    "custom/separator#blank",
     "custom/spotify",
     "custom/separator#blank_2",
     "custom/cava_mviz",
@@ -45,8 +43,6 @@
     "custom/separator#blank_2",
     "pulseaudio#1",
     "custom/separator#blank",
-    "pulseaudio#microphone",
-    "custom/separator#blank",
-    "custom/power"
+    "clock#4"
   ]
 }
