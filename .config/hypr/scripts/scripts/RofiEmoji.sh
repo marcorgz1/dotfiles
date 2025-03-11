@@ -4149,7 +4149,7 @@ exit
 🪫	Objects	computer	battery	electronic | low battery | low energy
 🔌	Objects	computer	plug	electric | electricity | plug
 💻	Objects	computer		computer | laptop | pc | personal | PC
-🖥️	Objects	computer	computer	
+🖥️	Objects	computer	computer | monitor | screen	
 🖥	Objects	computer	computer	computer | desktop
 🖨️	Objects	computer		
 🖨	Objects	computer		computer | printer
