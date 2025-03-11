@@ -8,4 +8,11 @@ configuration{
     hide-scrollbar: true;
 
 }
+
+window {
+  location: north;
+  y-offset: 20%;
+  width: 50%;
+}
+
 @theme "~/.config/rofi/menu.rasi"

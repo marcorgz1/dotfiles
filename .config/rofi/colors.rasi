@@ -1,4 +1,3 @@
-
 * {
     background:     #1E1D2FFF;
     background-alt: #282839FF;
@@ -7,3 +6,10 @@
     active:         #cba6f7;
     urgent:         #cba6f7;
 }
+
+window {
+  location: north;
+  y-offset: 15%;
+  width: 50%;
+}
+

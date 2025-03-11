@@ -2,7 +2,8 @@
     width: 800;
     font: "JetBrainsMono Nerd Font SemiBold 14";
 }
-@import                          "./colors.rasi"
+@import "./colors.rasi"
+
 element-text, element-icon, mode-switcher {
     background-color: inherit;
     text-color: inherit;
@@ -25,11 +26,17 @@ mainbox {
 }
 
 inputbar {
-    children: [prompt, entry];
+    enabled: true;
     background-color: @background;
     border-radius: 5px;
     padding: 2px;
     font: @font;
+    orientation: horizontal;
+    children: ['entry'];
+}
+
+dummy {
+  background-color: transparent;
 }
 
 prompt {
@@ -43,12 +50,6 @@ prompt {
     font: @font;
 }
 
-textbox-prompt-colon {
-    expand: false;
-    str: ":";
-    font: @font;
-}
-
 entry {
     padding: 0px 5px 8px 5px;  
     margin: 15px 0px 0px 15px;
@@ -57,7 +58,8 @@ entry {
     text-align: center; 
     line-height: 30px;   
     font: @font;
-    placeholder: 'Type app name 💫';
+    placeholder: '🔎 Search apps';
+    placeholder-color: inherit;
 }
 
 listview {
