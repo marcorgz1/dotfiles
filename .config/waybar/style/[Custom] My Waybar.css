@@ -75,7 +75,7 @@ tooltip {
 }
 
 #workspaces button {
-  color: @surface2;
+  color: @sky;
   font-weight: bold;
   border-radius: 50%;
   background: transparent;
@@ -90,7 +90,7 @@ tooltip {
 }
 
 #workspaces button.active {
-  color: #c3e88d;
+  color: @yellow;
   font-weight: bold;
   font-size: 24px;
   padding-left: 8px;
