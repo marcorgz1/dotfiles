@@ -4,7 +4,7 @@
 
 * {
   font-family: "BigBlueTerm437 Nerd Font";
-  min-height: 36px;
+  min-height: 10px;
   /* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
   font-size: 14px;
   font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
@@ -15,17 +15,11 @@
 window#waybar {
   background: #1f2335;
   color: #cba6f7;
+  border-radius: 50px;
 }
 
 window#waybar.hidden {
   opacity: 0.5;
-}
-
-window#waybar.empty,
-window#waybar.empty #window {
-  padding: 0px;
-  border: 0px;
-  /* background-color: #1f2335; */
 }
 
 tooltip {
@@ -35,14 +29,6 @@ tooltip {
   border-color: #11111b;
   color: #cba6f7;
 }
-
-/*
-.modules-left,
-.modules-center,
-.modules-right {
-  background: shade(@base, 0.9);
-}
-*/
 
 /*-----module groups----*/
 .modules-right {
@@ -64,10 +50,7 @@ tooltip {
 }
 
 .modules-left {
-  /*background-color: #1e1e2e;*/
-  /* border: 1px solid @sky; */
   border-radius: 100px;
-  /*background-color: #441a53;*/
   padding-top: 2px;
   padding-bottom: 2px;
   padding-right: 8px;
