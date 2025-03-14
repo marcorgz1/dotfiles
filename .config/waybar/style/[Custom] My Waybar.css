@@ -168,7 +168,7 @@ tooltip {
 
 /*-----Indicators----*/
 #custom-cava_mviz {
-  color: @mauve;
+  color: @rosewater;
   /* border: 1px solid @mauve; */
   border-radius: 6px;
   padding: 0 12px;
